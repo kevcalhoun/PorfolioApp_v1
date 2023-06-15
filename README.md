@@ -1,2 +1,5 @@
-# PorfolioApp_v1
-Personal Portfolio Website 2023
+# Porfolio Website v1 - 2023
+
+Simple Website detailing  my experience, skills, and projects
+
+Technologies: JavaScript, HTML, CSS
