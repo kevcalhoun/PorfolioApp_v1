@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Kevin Calhoun</title>
+</head>
+<!-- LOADING PAGE - TRANSITION EXAMPLE
+    <div class="bg"></div>
+
+    <a class="anetwork"></a>
+    <div class="text">Welcome!</div>
+    <div class="loaded-page"> page content </div> -->
+
+
+
+<body>
+    <!-- MEDIA LINKS - LEFT CONTAINER-->
+    <div orientaion="left" class="link-container-left">
+        <ul class="link-list-left">
+            <li>
+                <a href="" target="_blank" rel="noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook-f"
+                        aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- NAV LINKS - RIGHT CONTAINER-->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#home" class="nav-link nav--current"><i class="fa-solid fa-house" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="#about" class="nav-link"><i class="fa-solid fa-user" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-link"><i class="fa-solid fa-code" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link"><i class="fa-regular fa-paper-plane" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="#experience" class="nav-link"><i class="fa-regular fa-briefcase" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- HOME SECTION -->
+    <section class="home-section" id="home">
+        <div class="intro-heading">
+            <h1 class="greeting">hello world, my name is<br><b>Kevin Calhoun</b></h1>
+            <div class="intro-summary">
+                <h1>I'm a software developer</h1>
+            </div>
+        </div>
+        <img src="images/profilepic.JPG" class="home-img" alt="">
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+        <h1 class="section-heading">About me</h1>
+        <div class="about">
+            <div class="about-img-container">
+                <img src="images/profilepic.JPG" class="about-img" alt="">
+                <!-- <button class="download-cv-btn">download cv</button> -->
+            </div>
+            <p class="about-info">Hello and thanks for visiting my page! I'm Kevin, I live in Austin, Texas, and I'm a
+                software developer
+                specializing in front end development with focus on becoming a well-rounded full-stack engineer. I am
+                overly enthusiastic about innovative technology and building things, and absolutley love what I do. I
+                have 4+ years of experience using a wide range of modern technologies to build essential web
+                applications from the ground up, with steady involvement in system design and requirement analysis.
+                Currently, I am focused on building modern web applications at General Motors.</p>
+        </div>
+
+        <!-- skills -->
+        <div class="skills-section">
+            <h1 class="sub-section-heading left">some skills I've developed along the way</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h1 class="skill-group-heading">programming languages</h1>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><i class="fa-brands fa-js" aria-hidden="true"
+                            style="color:rgb(248, 215, 28); font-size: 1rem; padding-right: 10px;"></i>JavaScript (ES6+)
+                    </h1>
+                    <progress id="js-progress" value="90" max="100"></progress>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><img src="images/typescript_icon.JPG" style="padding-right: 10px;">TypeScript
+                    </h1>
+                    <progress id="ts-progress" value="90" max="100"></progress>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><i class="fa-brands fa-java" aria-hidden="true"
+                            style="color:rgb(114, 189, 202); font-size: 1rem; padding-right: 10px;"></i>Java</h1>
+                    <progress id="java-progress" value="60" max="100"></progress>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><i class="fa-brands fa-html5" aria-hidden="true"
+                            style="color:rgb(224, 91, 28); font-size: 1rem; padding-right: 10px;"></i>HTML</h1>
+                    <div class="progress-bar">
+                        <progress id="html-progress" value="100" max="100"></progress>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name">
+                        <i class="fa-brands fa-css3-alt" aria-hidden="true"
+                            style="color:rgb(71, 144, 238); font-size: 1rem; padding-right: 10px;"></i>CSS</h1>
+                    <div class="progress-bar">
+                        <progress id="css-progress" value="100" max="100"></progress>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><img src="images/sass_icon.png" style="padding-right: 10px;">Sass
+                    </h1>
+                    <progress id="scss-progress" value="90" max="100"></progress>
+                </div>
+
+                <div class="skill-card">
+                    <h1 class="skill-name"><i class="fa-solid fa-database" aria-hidden="true"
+                            style="color: lightgray; font-size: 1rem; padding-right: 10px;"></i>SQL</h1>
+                    <progress id="db-progress" value="95" max="100"></progress>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h1 class="skill-group-heading">libraries & frameworks</h1>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><i class="fa-brands fa-angular" aria-hidden="true"
+                            style="color:rgb(238, 89, 89); font-size: 1rem; padding-right: 10px;"></i>Angular</h1>
+                    <progress id="angular-progress" value="95" max="100"></progress>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><i class="fa-brands fa-node" aria-hidden="true"
+                            style="color:rgb(105, 177, 115); font-size: 1rem; padding-right: 10px;"></i>node.js</h1>
+                    <progress id="node-progress" value="85" max="100"></progress>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><i class="fa-solid fa-leaf" aria-hidden="true"
+                            style="color:rgb(10, 116, 6); font-size: 1rem; padding-right: 10px;"></i>Springboot</h1>
+                    <progress id="spring-progress" value="70" max="100"></progress>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h1 class="skill-group-heading">tools & platforms</h1>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"> <i class="fa-brands fa-wordpress-simple" aria-hidden="true"
+                            style="color: lightgray; font-size: 1rem; padding-right: 10px;"></i>Wordpress</h1>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><img src="images/aem_icon.JPG" style="padding-right: 10px;">Adobe Experience
+                        Manager (AEM)
+                    </h1>
+                </div>
+                <div class="skill-card">
+                    <h1 class="skill-name"><img src="images/azure_icon.JPG" style="padding-right: 10px;">Microsoft Azure
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- courses section -->
+        <div class="courses-section">
+            <h1 class="sub-section-heading right">some of my favorite courses</h1>
+
+            <div class="main-content">
+                <div class="wrapper">
+                    <div class="book">
+                    <div class="book-cover" style="background-image:url('images/UDEMYJS_BOOK_COVER.png');">
+                        <div class="book-detail">The Complete JavaScript Course 2023: From Zero to Expert!</div>
+                    </div>
+                    <div class="book-page ruled"></div>
+                    </div>
+                    <h4>Plain</h4>
+                </div>
+                <div class="wrapper">
+                    <div class="book">
+                    <div class="book-cover" style="background-image:url('images/UDEMYANGULAR_BOOK_COVER.png');">
+                        <div class="book-detail">Angular - The Complete Guide (2023 Edition)</div>
+                    </div>
+                    <div class="book-page ruled"></div>
+                    </div>
+                    <h4>Ruled</h4>
+                </div>
+                <div class="wrapper">
+                    <div class="book">
+                    <div class="book-cover" style="background-image:url('images/SIA_BOOK_COVER.JPG');"></div>
+                    <div class="book-page ruled"></div>
+                    </div>
+                    <h4>Squared</h4>
+                </div>
+                <div class="wrapper">
+                    <div class="book">
+                    <div class="book-cover" style="background-image:url('images/MSAZURE_BOOK_COVER.JPG');"></div>
+                    <div class="book-page ruled"></div>
+                    </div>
+                    <h4>Dotted</h4>
+                </div>
+                <div class="wrapper">
+                    <div class="book">
+                    <div class="book-cover" style="background-image:url('images/CTCI_BOOK_COVER.JPG');"></div>
+                    <div class="book-page ruled"></div>
+                    </div>
+                    <h4>Dotted</h4>
+                </div>
+            </div>
+
+              <!-- View My Training Course button -->
+            <div class="resume-btn-container">
+                <a rel="glow" class="button glow">View My Training SparkNotes App</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <!--TODO: Display The following upon project hover with timer for display for following:
+            - External Link Icon -> Routes user to Live App in new tab
+            - Github Icon -> Routes user to Projects Github Repo
+            - Project/App Description
+            - List of Technologies used to build Project -->
+    <section class="project-section" id="projects">
+        <h1 class="section-heading">some things i've built</h1>
+        <div class="projects-container">
+            <div class="project-panel">
+                <a style="background: url('images/uncle_g_app_img.png');" href="#"></a>
+                <div class="project-details">
+                    <div class="project-header">
+                        <p class="project-title">Uncle G's Seasoning</p>
+                    </div>
+                    <div class="project-subheader">
+                        <p>Check out this ecommerce website that I built </p>
+                        <p>for my friend's business. Feel free to buy some of their once secret, family recipe while you're there!</p>
+                        <div class="project-external-links">
+                            <!-- <a class="project-icon-link" href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a class="project-icon-link" href="#"><i class="fa-solid fa-code-branch"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-panel">
+                <a style="background: url('images/mock_ui_2.JPG');" href="#"></a>
+                <div class="project-details">
+                    <div class="project-header">
+                        <p class="project-title">KC Carplay</p>
+
+                    </div>
+                    <div class="project-subheader">
+                        <p>EV Infotainment Concept Design</p>
+                        <div class="project-external-links">
+                            <!-- <a class="project-icon-link" href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a class="project-icon-link" href="#"><i class="fa-solid fa-code-branch"></i></a> -->
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="project-panel">
+                <a style="background: url('images/mock_ui_3.JPG');" href="#"></a>
+                <div class="project-details">
+                    <div class="project-header">
+                        <p class="project-title">Family Finance Manager</p>
+                    </div>
+                    <div class="project-subheader">
+                        <p>View Your Personal & Family Financial Progress under a microscope.</p>
+                        <div class="project-external-links">
+                            <!-- <a class="project-icon-link" href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a class="project-icon-link" href="#"><i class="fa-solid fa-code-branch"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+        <h1 class="section-heading">Get in Touch!</h1>
+        <div class="contact-summary">
+            <p>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a
+                question or just want to say hi, I’ll try my best to get back to you!</p>
+        </div>
+        <!-- Contact button -->
+        <div class="contact-btn-container">
+            <a rel="glow" class="button glow" href="kwcalhou@alumni.iu.edu">Say Hello</a>
+        </div>
+
+        <!-- View Resume PDF button -->
+        <div class="resume-btn-container">
+            <a rel="glow" class="button glow">Resume</a>
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-container">
+            <p>Designed & Built by Kevin Calhoun | 2022</p>
+            <i class="fa-solid fa-code-branch"></i>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!--Links to activate javascript and jQuery on github pages-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Link to activate bootstrap on github pages-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
